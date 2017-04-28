@@ -21,7 +21,7 @@ cmsenv
 cd src/
 
 echo "# ================= #"
-echo "# Building in CMSSW #"
+echo "# Building in CMSSW only #"
 echo "# ================= #"
 
 scram b -v -j 2 || exit 1
